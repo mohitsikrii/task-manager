@@ -56,7 +56,7 @@ const sendGoodbyeEmail=(email,name)=>{
     sgMail.send({
       to:email,
       from:'sikrimohit454@gmail.com',
-      subject:'Nikal lawde',
+      subject:'It is sad to see you go',
       text:`Welcome to the app, ${name}.Let us know how you get along with the app!`
     }).then(()=>{
                 console.log('sent')
